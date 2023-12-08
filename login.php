@@ -52,7 +52,7 @@ if (isset($_POST['save'])) {
             ?>
             <script type="text/javascript">
                 alert("New Details Entry inserted successfully!");
-                window.location.href="login.html";
+                window.location.href="index.html";
             </script>
             <?php
         } else {
