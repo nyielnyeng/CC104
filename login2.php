@@ -31,7 +31,7 @@ if ($result->num_rows > 0) {
     
 } else {
     echo '<script>alert("Invalid username or password");';
-    echo 'window.location.href = "login.html";</script>';
+    echo 'window.location.href = "index.html";</script>';
     exit(); 
 }
 
