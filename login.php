@@ -59,7 +59,7 @@ if (isset($_POST['save'])) {
             ?>
             <script type="text/javascript">
                 alert("Error: <?php echo mysqli_error($conn); ?>");
-                window.location.href="login.html";
+                window.location.href="index.html";
             </script>
             <?php
         }
@@ -67,7 +67,7 @@ if (isset($_POST['save'])) {
         ?>
         <script type="text/javascript">
             alert("Error: Duplicate Student Number or Username. Please choose unique values."); 
-            window.location.href="login.html";  
+            window.location.href="index.html";  
         </script>
         <?php
     }
