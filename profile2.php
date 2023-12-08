@@ -84,7 +84,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['clear_history'])) {
 // Logout
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['logout'])) {
     session_destroy();
-    header("Location: login.html");
+    header("Location: index.html");
     exit();
 }
 ?>
